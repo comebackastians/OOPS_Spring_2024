@@ -116,6 +116,7 @@ public class UserController
             //     userPosts.add(postDetails);
             // }
             //userDetails.put("posts", userPosts);
+            // Commented in case we want to view post and comment for each user specifically. Added feauture for the app.
             return ResponseEntity.ok(userDetails);
         } 
         else 
